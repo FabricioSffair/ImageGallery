@@ -17,7 +17,7 @@ struct PageResponse: Decodable {
 struct PhotoResponse: Decodable {
     let id: String
     let title: String?
-    let farm: String
+    let farm: Int
 }
 
 
