@@ -16,7 +16,7 @@ protocol GalleryRepository {
 class GalleryInteractor {
     private let repository: GalleryRepository
     
-    init(galleryRepository: GalleryRepository) {
+    init(galleryRepository: GalleryRepository = GalleryService()) {
         repository = galleryRepository
     }
     
@@ -39,7 +39,7 @@ class GalleryInteractor {
             repository.getSizes(for: photo.id) { (sizes, error) in
                 for size in sizes {
                     if size.label == "Large" {
-                        images.append(Image(imageURL: size.url))
+                        images.append(Image(imageURL: size.source))
                     }
                 }
                 dispatchGroup.leave()

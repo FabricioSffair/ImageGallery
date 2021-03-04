@@ -11,7 +11,7 @@ struct PageResponse: Decodable {
     struct Page: Decodable {
         let photo: [PhotoResponse]
     }
-    let photos: Page
+    let photos: Page?
 }
 
 struct PhotoResponse: Decodable {
@@ -30,5 +30,5 @@ struct SizesResponse: Decodable {
 
 struct Size: Decodable {
     let label: String
-    let url: String
+    let source: String
 }
