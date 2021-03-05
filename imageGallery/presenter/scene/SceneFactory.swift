@@ -9,8 +9,8 @@ import Foundation
 
 
 class SceneFactory {
-    func buildGalleryController(interactor: GalleryInteractor) -> GalleryCollectionViewController {
-        let viewController = GalleryCollectionViewController()
+    func buildGalleryController(interactor: GalleryInteractor) -> GalleryViewController {
+        let viewController = GalleryViewController()
         let presenter = GalleryPresenter(view: viewController)
         viewController.presenter = presenter
         return viewController

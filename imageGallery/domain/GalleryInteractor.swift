@@ -38,7 +38,7 @@ class GalleryInteractor {
             dispatchGroup.enter()
             repository.getSizes(for: photo.id) { (sizes, error) in
                 for size in sizes {
-                    if size.label == "Large" {
+                    if size.label == "Large Square" {
                         images.append(Image(imageURL: size.source))
                     }
                 }

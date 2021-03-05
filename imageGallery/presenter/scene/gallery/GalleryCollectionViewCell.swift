@@ -19,6 +19,13 @@ class GalleryCollectionViewCell: UICollectionViewCell {
     }
     
     func loadImage(with image: Image) {
-        imageView.kf.setImage(with: URL(string: image.imageURL)!)
+        guard let url = URL(string: image.imageURL) else { return }
+        let processor = DownsamplingImageProcessor(size: imageView.bounds.size)
+        imageView.kf.indicatorType = .activity
+        imageView.kf.setImage(with: url,
+                              options: [
+                                .processor(processor),
+                                .transition(.fade(0.25))
+                              ])
     }
 }

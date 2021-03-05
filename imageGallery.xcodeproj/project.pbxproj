@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		195C1DC725F2BF300073D6D8 /* AppCoordinatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DC625F2BF300073D6D8 /* AppCoordinatorSpec.swift */; };
+		195C1DCF25F2BF440073D6D8 /* GalleryCoordinatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DCE25F2BF440073D6D8 /* GalleryCoordinatorSpec.swift */; };
+		195C1DE725F2C1C50073D6D8 /* CoordinatorsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DE625F2C1C50073D6D8 /* CoordinatorsFactory.swift */; };
+		195C1DEC25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DEB25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift */; };
+		195C1DF225F2C2EB0073D6D8 /* UIWindowMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DF125F2C2EB0073D6D8 /* UIWindowMock.swift */; };
+		195C1DF625F2C3090073D6D8 /* CoordinatorsFactoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DF525F2C3090073D6D8 /* CoordinatorsFactoryMock.swift */; };
 		197C4A0425EFA5E600ADAB1D /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C4A0325EFA5E600ADAB1D /* FlickrAPI.swift */; };
 		197C4A0C25EFA9F600ADAB1D /* PhotosResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C4A0B25EFA9F600ADAB1D /* PhotosResponse.swift */; };
-		197C4A1B25EFAB3800ADAB1D /* GalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C4A1925EFAB3800ADAB1D /* GalleryCollectionViewController.swift */; };
-		197C4A1C25EFAB3800ADAB1D /* GalleryCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 197C4A1A25EFAB3800ADAB1D /* GalleryCollectionViewController.xib */; };
+		197C4A1B25EFAB3800ADAB1D /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C4A1925EFAB3800ADAB1D /* GalleryViewController.swift */; };
+		197C4A1C25EFAB3800ADAB1D /* GalleryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 197C4A1A25EFAB3800ADAB1D /* GalleryView.xib */; };
 		197C4A2425EFAB6600ADAB1D /* GalleryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C4A2325EFAB6600ADAB1D /* GalleryInteractor.swift */; };
 		197C4A3025EFABE100ADAB1D /* GalleryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C4A2F25EFABE100ADAB1D /* GalleryService.swift */; };
 		1995C66525EFA36F00A2AA79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995C66425EFA36F00A2AA79 /* AppDelegate.swift */; };
@@ -20,7 +26,6 @@
 		1995C66E25EFA37100A2AA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1995C66D25EFA37100A2AA79 /* Assets.xcassets */; };
 		1995C67125EFA37100A2AA79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1995C66F25EFA37100A2AA79 /* LaunchScreen.storyboard */; };
 		1995C67C25EFA37100A2AA79 /* imageGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995C67B25EFA37100A2AA79 /* imageGalleryTests.swift */; };
-		1995C68725EFA37100A2AA79 /* imageGalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995C68625EFA37100A2AA79 /* imageGalleryUITests.swift */; };
 		19C15DB225F0124E000BD93D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C15DB125F0124E000BD93D /* Coordinator.swift */; };
 		19C15DBA25F0125D000BD93D /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C15DB925F0125D000BD93D /* AppCoordinator.swift */; };
 		19C15DBF25F01267000BD93D /* GalleryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C15DBE25F01267000BD93D /* GalleryCoordinator.swift */; };
@@ -28,7 +33,6 @@
 		19C15DC925F01352000BD93D /* GalleryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C15DC825F01352000BD93D /* GalleryPresenter.swift */; };
 		19C15DCF25F026D6000BD93D /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C15DCD25F026D6000BD93D /* GalleryCollectionViewCell.swift */; };
 		19C15DD025F026D6000BD93D /* GalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19C15DCE25F026D6000BD93D /* GalleryCollectionViewCell.xib */; };
-		571CE0598970DCDE097C15C9 /* Pods_imageGallery_Tests_imageGalleryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DD97A6D45C5706D9579501 /* Pods_imageGallery_Tests_imageGalleryUITests.framework */; };
 		749AE85F48C96CB91179536E /* Pods_imageGallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5308E88B51C73654EF31911D /* Pods_imageGallery.framework */; };
 		F69E4FC1DE8A77F7C96A9C19 /* Pods_imageGallery_Tests_imageGalleryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF98CCBAE1F0565BE6EF487 /* Pods_imageGallery_Tests_imageGalleryTests.framework */; };
 /* End PBXBuildFile section */
@@ -41,22 +45,21 @@
 			remoteGlobalIDString = 1995C66025EFA36F00A2AA79;
 			remoteInfo = imageGallery;
 		};
-		1995C68325EFA37100A2AA79 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1995C65925EFA36F00A2AA79 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1995C66025EFA36F00A2AA79;
-			remoteInfo = imageGallery;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02DD97A6D45C5706D9579501 /* Pods_imageGallery_Tests_imageGalleryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imageGallery_Tests_imageGalleryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D55CCB5B35B5981AB153A7 /* Pods-imageGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imageGallery.release.xcconfig"; path = "Target Support Files/Pods-imageGallery/Pods-imageGallery.release.xcconfig"; sourceTree = "<group>"; };
+		195C1DC625F2BF300073D6D8 /* AppCoordinatorSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorSpec.swift; sourceTree = "<group>"; };
+		195C1DCE25F2BF440073D6D8 /* GalleryCoordinatorSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCoordinatorSpec.swift; sourceTree = "<group>"; };
+		195C1DE625F2C1C50073D6D8 /* CoordinatorsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsFactory.swift; sourceTree = "<group>"; };
+		195C1DEB25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCoordinatorMock.swift; sourceTree = "<group>"; };
+		195C1DF125F2C2EB0073D6D8 /* UIWindowMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowMock.swift; sourceTree = "<group>"; };
+		195C1DF525F2C3090073D6D8 /* CoordinatorsFactoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsFactoryMock.swift; sourceTree = "<group>"; };
 		197C4A0325EFA5E600ADAB1D /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
 		197C4A0B25EFA9F600ADAB1D /* PhotosResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosResponse.swift; sourceTree = "<group>"; };
-		197C4A1925EFAB3800ADAB1D /* GalleryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewController.swift; sourceTree = "<group>"; };
-		197C4A1A25EFAB3800ADAB1D /* GalleryCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryCollectionViewController.xib; sourceTree = "<group>"; };
+		197C4A1925EFAB3800ADAB1D /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		197C4A1A25EFAB3800ADAB1D /* GalleryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryView.xib; sourceTree = "<group>"; };
 		197C4A2325EFAB6600ADAB1D /* GalleryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryInteractor.swift; sourceTree = "<group>"; };
 		197C4A2F25EFABE100ADAB1D /* GalleryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryService.swift; sourceTree = "<group>"; };
 		1995C66125EFA36F00A2AA79 /* imageGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,9 +73,6 @@
 		1995C67725EFA37100A2AA79 /* imageGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1995C67B25EFA37100A2AA79 /* imageGalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageGalleryTests.swift; sourceTree = "<group>"; };
 		1995C67D25EFA37100A2AA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1995C68225EFA37100A2AA79 /* imageGalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageGalleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1995C68625EFA37100A2AA79 /* imageGalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageGalleryUITests.swift; sourceTree = "<group>"; };
-		1995C68825EFA37100A2AA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19C15DB125F0124E000BD93D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		19C15DB925F0125D000BD93D /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		19C15DBE25F01267000BD93D /* GalleryCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCoordinator.swift; sourceTree = "<group>"; };
@@ -106,17 +106,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1995C67F25EFA37100A2AA79 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				571CE0598970DCDE097C15C9 /* Pods_imageGallery_Tests_imageGalleryUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		195C1DC125F2BEF50073D6D8 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		195C1DC225F2BEF90073D6D8 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				195C1DC525F2BF110073D6D8 /* scene */,
+				195C1DC425F2BF080073D6D8 /* coordinator */,
+				195C1DC325F2BF040073D6D8 /* mocks */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		195C1DC325F2BF040073D6D8 /* mocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mocks;
+			sourceTree = "<group>";
+		};
+		195C1DC425F2BF080073D6D8 /* coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				195C1DEA25F2C2C70073D6D8 /* mocks */,
+				195C1DC625F2BF300073D6D8 /* AppCoordinatorSpec.swift */,
+				195C1DCE25F2BF440073D6D8 /* GalleryCoordinatorSpec.swift */,
+			);
+			path = coordinator;
+			sourceTree = "<group>";
+		};
+		195C1DC525F2BF110073D6D8 /* scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = scene;
+			sourceTree = "<group>";
+		};
+		195C1DEA25F2C2C70073D6D8 /* mocks */ = {
+			isa = PBXGroup;
+			children = (
+				195C1DEB25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift */,
+				195C1DF125F2C2EB0073D6D8 /* UIWindowMock.swift */,
+				195C1DF525F2C3090073D6D8 /* CoordinatorsFactoryMock.swift */,
+			);
+			path = mocks;
+			sourceTree = "<group>";
+		};
 		197C49FB25EFA59700ADAB1D /* shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,8 +205,8 @@
 		197C4A1825EFAB0400ADAB1D /* gallery */ = {
 			isa = PBXGroup;
 			children = (
-				197C4A1925EFAB3800ADAB1D /* GalleryCollectionViewController.swift */,
-				197C4A1A25EFAB3800ADAB1D /* GalleryCollectionViewController.xib */,
+				197C4A1925EFAB3800ADAB1D /* GalleryViewController.swift */,
+				197C4A1A25EFAB3800ADAB1D /* GalleryView.xib */,
 				19C15DC825F01352000BD93D /* GalleryPresenter.swift */,
 				19C15DCD25F026D6000BD93D /* GalleryCollectionViewCell.swift */,
 				19C15DCE25F026D6000BD93D /* GalleryCollectionViewCell.xib */,
@@ -193,7 +236,6 @@
 			children = (
 				1995C66325EFA36F00A2AA79 /* imageGallery */,
 				1995C67A25EFA37100A2AA79 /* imageGalleryTests */,
-				1995C68525EFA37100A2AA79 /* imageGalleryUITests */,
 				1995C66225EFA36F00A2AA79 /* Products */,
 				277F55436D55AD628C21909F /* Pods */,
 				78980AD087EF319E28D4627A /* Frameworks */,
@@ -205,7 +247,6 @@
 			children = (
 				1995C66125EFA36F00A2AA79 /* imageGallery.app */,
 				1995C67725EFA37100A2AA79 /* imageGalleryTests.xctest */,
-				1995C68225EFA37100A2AA79 /* imageGalleryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -231,19 +272,12 @@
 		1995C67A25EFA37100A2AA79 /* imageGalleryTests */ = {
 			isa = PBXGroup;
 			children = (
+				195C1DC225F2BEF90073D6D8 /* presenter */,
+				195C1DC125F2BEF50073D6D8 /* domain */,
 				1995C67B25EFA37100A2AA79 /* imageGalleryTests.swift */,
 				1995C67D25EFA37100A2AA79 /* Info.plist */,
 			);
 			path = imageGalleryTests;
-			sourceTree = "<group>";
-		};
-		1995C68525EFA37100A2AA79 /* imageGalleryUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1995C68625EFA37100A2AA79 /* imageGalleryUITests.swift */,
-				1995C68825EFA37100A2AA79 /* Info.plist */,
-			);
-			path = imageGalleryUITests;
 			sourceTree = "<group>";
 		};
 		19C15DB025F01238000BD93D /* coordinator */ = {
@@ -251,6 +285,7 @@
 			children = (
 				19C15DB125F0124E000BD93D /* Coordinator.swift */,
 				19C15DB925F0125D000BD93D /* AppCoordinator.swift */,
+				195C1DE625F2C1C50073D6D8 /* CoordinatorsFactory.swift */,
 				19C15DBE25F01267000BD93D /* GalleryCoordinator.swift */,
 			);
 			path = coordinator;
@@ -321,26 +356,6 @@
 			productReference = 1995C67725EFA37100A2AA79 /* imageGalleryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1995C68125EFA37100A2AA79 /* imageGalleryUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1995C69125EFA37100A2AA79 /* Build configuration list for PBXNativeTarget "imageGalleryUITests" */;
-			buildPhases = (
-				9300477EB89B87F3FDAC58E2 /* [CP] Check Pods Manifest.lock */,
-				1995C67E25EFA37100A2AA79 /* Sources */,
-				1995C67F25EFA37100A2AA79 /* Frameworks */,
-				1995C68025EFA37100A2AA79 /* Resources */,
-				0CBED9D3AB6C18E626739084 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1995C68425EFA37100A2AA79 /* PBXTargetDependency */,
-			);
-			name = imageGalleryUITests;
-			productName = imageGalleryUITests;
-			productReference = 1995C68225EFA37100A2AA79 /* imageGalleryUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -354,10 +369,6 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					1995C67625EFA37100A2AA79 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 1995C66025EFA36F00A2AA79;
-					};
-					1995C68125EFA37100A2AA79 = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 1995C66025EFA36F00A2AA79;
 					};
@@ -378,7 +389,6 @@
 			targets = (
 				1995C66025EFA36F00A2AA79 /* imageGallery */,
 				1995C67625EFA37100A2AA79 /* imageGalleryTests */,
-				1995C68125EFA37100A2AA79 /* imageGalleryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -392,18 +402,11 @@
 				1995C66E25EFA37100A2AA79 /* Assets.xcassets in Resources */,
 				1995C66C25EFA36F00A2AA79 /* Main.storyboard in Resources */,
 				19C15DD025F026D6000BD93D /* GalleryCollectionViewCell.xib in Resources */,
-				197C4A1C25EFAB3800ADAB1D /* GalleryCollectionViewController.xib in Resources */,
+				197C4A1C25EFAB3800ADAB1D /* GalleryView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1995C67525EFA37100A2AA79 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1995C68025EFA37100A2AA79 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -428,23 +431,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-imageGallery/Pods-imageGallery-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0CBED9D3AB6C18E626739084 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-imageGallery-Tests-imageGalleryUITests/Pods-imageGallery-Tests-imageGalleryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-imageGallery-Tests-imageGalleryUITests/Pods-imageGallery-Tests-imageGalleryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-imageGallery-Tests-imageGalleryUITests/Pods-imageGallery-Tests-imageGalleryUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5F07734389EE76AB95BE19FE /* [CP] Embed Pods Frameworks */ = {
@@ -486,28 +472,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9300477EB89B87F3FDAC58E2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-imageGallery-Tests-imageGalleryUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C5E2A2A71A3DBC5D8EE5F556 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -541,11 +505,12 @@
 				197C4A2425EFAB6600ADAB1D /* GalleryInteractor.swift in Sources */,
 				1995C66925EFA36F00A2AA79 /* ViewController.swift in Sources */,
 				19C15DBA25F0125D000BD93D /* AppCoordinator.swift in Sources */,
-				197C4A1B25EFAB3800ADAB1D /* GalleryCollectionViewController.swift in Sources */,
+				197C4A1B25EFAB3800ADAB1D /* GalleryViewController.swift in Sources */,
 				19C15DCF25F026D6000BD93D /* GalleryCollectionViewCell.swift in Sources */,
 				1995C66525EFA36F00A2AA79 /* AppDelegate.swift in Sources */,
 				1995C66725EFA36F00A2AA79 /* SceneDelegate.swift in Sources */,
 				19C15DBF25F01267000BD93D /* GalleryCoordinator.swift in Sources */,
+				195C1DE725F2C1C50073D6D8 /* CoordinatorsFactory.swift in Sources */,
 				19C15DC425F012EF000BD93D /* SceneFactory.swift in Sources */,
 				197C4A0425EFA5E600ADAB1D /* FlickrAPI.swift in Sources */,
 				197C4A3025EFABE100ADAB1D /* GalleryService.swift in Sources */,
@@ -559,14 +524,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1995C67C25EFA37100A2AA79 /* imageGalleryTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1995C67E25EFA37100A2AA79 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1995C68725EFA37100A2AA79 /* imageGalleryUITests.swift in Sources */,
+				195C1DEC25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift in Sources */,
+				195C1DF225F2C2EB0073D6D8 /* UIWindowMock.swift in Sources */,
+				195C1DF625F2C3090073D6D8 /* CoordinatorsFactoryMock.swift in Sources */,
+				195C1DCF25F2BF440073D6D8 /* GalleryCoordinatorSpec.swift in Sources */,
+				195C1DC725F2BF300073D6D8 /* AppCoordinatorSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,11 +539,6 @@
 			isa = PBXTargetDependency;
 			target = 1995C66025EFA36F00A2AA79 /* imageGallery */;
 			targetProxy = 1995C67825EFA37100A2AA79 /* PBXContainerItemProxy */;
-		};
-		1995C68425EFA37100A2AA79 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1995C66025EFA36F00A2AA79 /* imageGallery */;
-			targetProxy = 1995C68325EFA37100A2AA79 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -803,46 +760,6 @@
 			};
 			name = Release;
 		};
-		1995C69225EFA37100A2AA79 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA952E95B8D56ADC3402C680 /* Pods-imageGallery-Tests-imageGalleryUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = imageGalleryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fabricio.imageGalleryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = imageGallery;
-			};
-			name = Debug;
-		};
-		1995C69325EFA37100A2AA79 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5D02C9426A600C98B1BE5CD /* Pods-imageGallery-Tests-imageGalleryUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = imageGalleryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fabricio.imageGalleryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = imageGallery;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -869,15 +786,6 @@
 			buildConfigurations = (
 				1995C68F25EFA37100A2AA79 /* Debug */,
 				1995C69025EFA37100A2AA79 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1995C69125EFA37100A2AA79 /* Build configuration list for PBXNativeTarget "imageGalleryUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1995C69225EFA37100A2AA79 /* Debug */,
-				1995C69325EFA37100A2AA79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

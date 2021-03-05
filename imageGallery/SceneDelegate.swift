@@ -20,7 +20,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
         let navigationController = UINavigationController()
         navigationController.navigationBar.tintColor = .systemBlue
-        let coordinator = AppCoordinator(window: window ?? UIWindow(), navigationController: navigationController)
+        let coordinatorFactory = CoordinatorsFactory(navigationController: navigationController)
+        let coordinator = AppCoordinator(
+            window: window ?? UIWindow(),
+            navigationController: navigationController,
+            coordinatorsFactory: coordinatorFactory)
         coordinator.start()
     }
 

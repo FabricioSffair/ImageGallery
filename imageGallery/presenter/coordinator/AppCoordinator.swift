@@ -13,11 +13,14 @@ class AppCoordinator: Coordinator {
     private let window: UIWindow
     private let navigationController: UINavigationController
     private var coordinator: Coordinator?
+    private let coordinatorsFactory: CoordinatorsFactory
     
     init(window: UIWindow = UIWindow(),
-         navigationController: UINavigationController) {
+         navigationController: UINavigationController,
+         coordinatorsFactory: CoordinatorsFactory) {
         self.window = window
         self.navigationController = navigationController
+        self.coordinatorsFactory = coordinatorsFactory
         setupWindow()
     }
     
@@ -27,7 +30,7 @@ class AppCoordinator: Coordinator {
     }
     
     func start() {
-        coordinator = GalleryCoordinator(navigationController: navigationController)
+        coordinator = coordinatorsFactory.buildGalleryCoordinator()
         coordinator?.start()
     }
 }
