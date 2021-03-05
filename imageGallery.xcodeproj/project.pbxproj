@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		195C1DC725F2BF300073D6D8 /* AppCoordinatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DC625F2BF300073D6D8 /* AppCoordinatorSpec.swift */; };
-		195C1DCF25F2BF440073D6D8 /* GalleryCoordinatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DCE25F2BF440073D6D8 /* GalleryCoordinatorSpec.swift */; };
 		195C1DE725F2C1C50073D6D8 /* CoordinatorsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DE625F2C1C50073D6D8 /* CoordinatorsFactory.swift */; };
 		195C1DEC25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DEB25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift */; };
 		195C1DF225F2C2EB0073D6D8 /* UIWindowMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DF125F2C2EB0073D6D8 /* UIWindowMock.swift */; };
 		195C1DF625F2C3090073D6D8 /* CoordinatorsFactoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DF525F2C3090073D6D8 /* CoordinatorsFactoryMock.swift */; };
+		195C1DFF25F2CD820073D6D8 /* SceneFactoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DFE25F2CD820073D6D8 /* SceneFactoryMock.swift */; };
+		195C1E0325F2CFF10073D6D8 /* GalleryCoordinatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1E0225F2CFF10073D6D8 /* GalleryCoordinatorSpec.swift */; };
+		195C1E0925F2D0C10073D6D8 /* UINavigationControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1E0825F2D0C10073D6D8 /* UINavigationControllerMock.swift */; };
 		197C4A0425EFA5E600ADAB1D /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C4A0325EFA5E600ADAB1D /* FlickrAPI.swift */; };
 		197C4A0C25EFA9F600ADAB1D /* PhotosResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C4A0B25EFA9F600ADAB1D /* PhotosResponse.swift */; };
 		197C4A1B25EFAB3800ADAB1D /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197C4A1925EFAB3800ADAB1D /* GalleryViewController.swift */; };
@@ -51,11 +53,13 @@
 		02DD97A6D45C5706D9579501 /* Pods_imageGallery_Tests_imageGalleryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imageGallery_Tests_imageGalleryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D55CCB5B35B5981AB153A7 /* Pods-imageGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imageGallery.release.xcconfig"; path = "Target Support Files/Pods-imageGallery/Pods-imageGallery.release.xcconfig"; sourceTree = "<group>"; };
 		195C1DC625F2BF300073D6D8 /* AppCoordinatorSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorSpec.swift; sourceTree = "<group>"; };
-		195C1DCE25F2BF440073D6D8 /* GalleryCoordinatorSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCoordinatorSpec.swift; sourceTree = "<group>"; };
 		195C1DE625F2C1C50073D6D8 /* CoordinatorsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsFactory.swift; sourceTree = "<group>"; };
 		195C1DEB25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCoordinatorMock.swift; sourceTree = "<group>"; };
 		195C1DF125F2C2EB0073D6D8 /* UIWindowMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowMock.swift; sourceTree = "<group>"; };
 		195C1DF525F2C3090073D6D8 /* CoordinatorsFactoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsFactoryMock.swift; sourceTree = "<group>"; };
+		195C1DFE25F2CD820073D6D8 /* SceneFactoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactoryMock.swift; sourceTree = "<group>"; };
+		195C1E0225F2CFF10073D6D8 /* GalleryCoordinatorSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCoordinatorSpec.swift; sourceTree = "<group>"; };
+		195C1E0825F2D0C10073D6D8 /* UINavigationControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerMock.swift; sourceTree = "<group>"; };
 		197C4A0325EFA5E600ADAB1D /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
 		197C4A0B25EFA9F600ADAB1D /* PhotosResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosResponse.swift; sourceTree = "<group>"; };
 		197C4A1925EFAB3800ADAB1D /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 		195C1DC325F2BF040073D6D8 /* mocks */ = {
 			isa = PBXGroup;
 			children = (
+				195C1DFE25F2CD820073D6D8 /* SceneFactoryMock.swift */,
+				195C1E0825F2D0C10073D6D8 /* UINavigationControllerMock.swift */,
 			);
 			path = mocks;
 			sourceTree = "<group>";
@@ -138,7 +144,7 @@
 			children = (
 				195C1DEA25F2C2C70073D6D8 /* mocks */,
 				195C1DC625F2BF300073D6D8 /* AppCoordinatorSpec.swift */,
-				195C1DCE25F2BF440073D6D8 /* GalleryCoordinatorSpec.swift */,
+				195C1E0225F2CFF10073D6D8 /* GalleryCoordinatorSpec.swift */,
 			);
 			path = coordinator;
 			sourceTree = "<group>";
@@ -146,6 +152,7 @@
 		195C1DC525F2BF110073D6D8 /* scene */ = {
 			isa = PBXGroup;
 			children = (
+				195C1DFB25F2CD430073D6D8 /* mocks */,
 			);
 			path = scene;
 			sourceTree = "<group>";
@@ -156,6 +163,13 @@
 				195C1DEB25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift */,
 				195C1DF125F2C2EB0073D6D8 /* UIWindowMock.swift */,
 				195C1DF525F2C3090073D6D8 /* CoordinatorsFactoryMock.swift */,
+			);
+			path = mocks;
+			sourceTree = "<group>";
+		};
+		195C1DFB25F2CD430073D6D8 /* mocks */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = mocks;
 			sourceTree = "<group>";
@@ -523,11 +537,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				195C1E0325F2CFF10073D6D8 /* GalleryCoordinatorSpec.swift in Sources */,
 				1995C67C25EFA37100A2AA79 /* imageGalleryTests.swift in Sources */,
 				195C1DEC25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift in Sources */,
 				195C1DF225F2C2EB0073D6D8 /* UIWindowMock.swift in Sources */,
+				195C1DFF25F2CD820073D6D8 /* SceneFactoryMock.swift in Sources */,
 				195C1DF625F2C3090073D6D8 /* CoordinatorsFactoryMock.swift in Sources */,
-				195C1DCF25F2BF440073D6D8 /* GalleryCoordinatorSpec.swift in Sources */,
+				195C1E0925F2D0C10073D6D8 /* UINavigationControllerMock.swift in Sources */,
 				195C1DC725F2BF300073D6D8 /* AppCoordinatorSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
