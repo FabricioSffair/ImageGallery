@@ -11,24 +11,10 @@ struct PageResponse: Decodable {
     struct Page: Decodable {
         let photo: [PhotoResponse]
     }
-    let photos: Page
+    let photos: Page?
 }
 
 struct PhotoResponse: Decodable {
     let id: String
     let title: String?
-    let farm: Int
-}
-
-
-struct SizesResponse: Decodable {
-    struct Sizes: Decodable {
-        let size: [Size]
-    }
-    let sizes: Sizes
-}
-
-struct Size: Decodable {
-    let label: String
-    let url: String
 }

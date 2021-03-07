@@ -18,8 +18,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = GalleryCollectionViewController()
-        window?.makeKeyAndVisible()
+        let navigationController = UINavigationController()
+        navigationController.navigationBar.tintColor = .systemBlue
+        let coordinatorFactory = CoordinatorsFactory(navigationController: navigationController)
+        let coordinator = AppCoordinator(
+            window: window ?? UIWindow(),
+            navigationController: navigationController,
+            coordinatorsFactory: coordinatorFactory)
+        coordinator.start()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

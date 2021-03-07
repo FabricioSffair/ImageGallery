@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GalleryViewController" customModule="imageGallery" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="EDY-VS-XaQ" id="akP-pS-Cyf"/>
+                <outlet property="logoImageView" destination="qXj-Ku-wB8" id="GCe-Vs-hgF"/>
+                <outlet property="searchBar" destination="fi3-Hd-aj6" id="Q5z-MW-156"/>
+                <outlet property="view" destination="yNT-c3-Lrb" id="Lwe-QR-chs"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="yNT-c3-Lrb">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="EDY-VS-XaQ">
+                    <rect key="frame" x="10" y="100" width="394" height="796"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zBT-tI-h5O">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flickr" translatesAutoresizingMaskIntoConstraints="NO" id="qXj-Ku-wB8">
+                    <rect key="frame" x="40" y="197" width="334" height="512"/>
+                </imageView>
+                <searchBar contentMode="redraw" placeholder="Photos" translatesAutoresizingMaskIntoConstraints="NO" id="fi3-Hd-aj6">
+                    <rect key="frame" x="0.0" y="44" width="414" height="56"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="TUH-o0-AGy"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="EDY-VS-XaQ" firstAttribute="top" secondItem="fi3-Hd-aj6" secondAttribute="bottom" id="4l5-Q9-f7i"/>
+                <constraint firstItem="fi3-Hd-aj6" firstAttribute="trailing" secondItem="TUH-o0-AGy" secondAttribute="trailing" id="6wG-lx-LJu"/>
+                <constraint firstItem="fi3-Hd-aj6" firstAttribute="top" secondItem="TUH-o0-AGy" secondAttribute="top" id="D7i-kS-Rrk"/>
+                <constraint firstAttribute="bottom" secondItem="EDY-VS-XaQ" secondAttribute="bottom" id="K9B-Il-Gli"/>
+                <constraint firstAttribute="trailing" secondItem="qXj-Ku-wB8" secondAttribute="trailing" constant="40" id="UdY-Ld-n3e"/>
+                <constraint firstItem="qXj-Ku-wB8" firstAttribute="centerX" secondItem="TUH-o0-AGy" secondAttribute="centerX" id="Zj5-QT-vyb"/>
+                <constraint firstItem="fi3-Hd-aj6" firstAttribute="leading" secondItem="TUH-o0-AGy" secondAttribute="leading" id="faR-U8-pDJ"/>
+                <constraint firstItem="qXj-Ku-wB8" firstAttribute="leading" secondItem="yNT-c3-Lrb" secondAttribute="leading" constant="40" id="p3C-Qm-Jy4"/>
+                <constraint firstItem="qXj-Ku-wB8" firstAttribute="centerY" secondItem="TUH-o0-AGy" secondAttribute="centerY" id="q40-0n-xcH"/>
+                <constraint firstAttribute="trailing" secondItem="EDY-VS-XaQ" secondAttribute="trailing" constant="10" id="suo-FQ-mGo"/>
+                <constraint firstItem="EDY-VS-XaQ" firstAttribute="leading" secondItem="TUH-o0-AGy" secondAttribute="leading" constant="10" id="tWV-IL-Fq7"/>
+            </constraints>
+            <point key="canvasLocation" x="-826" y="-540"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="flickr" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

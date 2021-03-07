@@ -7,32 +7,64 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "20BB3EF5-8794-449E-99C9-04977C312A57"
+            uuid = "42AA13CE-93CD-484A-AA77-74733147CFDF"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "imageGallery/presenter/scene/gallery/GalleryCollectionViewController.swift"
+            filePath = "imageGallery/presenter/scene/gallery/GalleryPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "fetchImages()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "42AA13CE-93CD-484A-AA77-74733147CFDF - 8245315a00454f25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "imageGallery.GalleryPresenter.(fetchImages in _E6556626A17E2793D137CA26F51A1478)() -&gt; ()"
+                  moduleName = "imageGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sperotto/Development/imageGallery/imageGallery/presenter/scene/gallery/GalleryPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "289">
+               </Location>
+               <Location
+                  uuid = "42AA13CE-93CD-484A-AA77-74733147CFDF - f5191b5b66dac218"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;imageGallery.Image&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in imageGallery.GalleryPresenter.(fetchImages in _E6556626A17E2793D137CA26F51A1478)() -&gt; ()"
+                  moduleName = "imageGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sperotto/Development/imageGallery/imageGallery/presenter/scene/gallery/GalleryPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "241">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "691CE487-C19B-45F9-98FC-C847D1BD9A20"
+            uuid = "CC577BA9-C56C-46A6-89B0-4F87AFE14F41"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "imageGallery/domain/GalleryInteractor.swift"
+            filePath = "imageGalleryTests/presenter/scene/gallery/mocks/GalleryViewMock.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "fetchImageUrls(photos:completionBlock:)"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "togglePullRefresh(show:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

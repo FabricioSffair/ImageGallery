@@ -9,7 +9,12 @@ import Foundation
 import Moya
 
 class GalleryService: GalleryRepository {
+    
+#if DEBUG
+    let provider = MoyaProvider<FlickrAPI>(callbackQueue: DispatchQueue.global(qos: .utility), plugins: [NetworkLoggerPlugin(configuration: NetworkLoggerPlugin.Configuration(logOptions: .verbose))])
+#else
     let provider = MoyaProvider<FlickrAPI>(callbackQueue: DispatchQueue.global(qos: .utility))
+#endif
     
     func searchImages(with tag: String, page: Int, completionBlock: @escaping ([PhotoResponse], Error?) -> Void) {
         provider.request(.searchPhotos(tag: tag, page: page)) { result in
@@ -17,8 +22,8 @@ class GalleryService: GalleryRepository {
             case .success(let moyaResponse):
                 do {
                     let response = try JSONDecoder().decode(PageResponse.self, from: moyaResponse.data)
-                    let photos = response.photos.photo
-                    completionBlock(photos, nil)
+                    let photos = response.photos?.photo
+                    completionBlock(photos ?? [], nil)
                 } catch let error {
                     completionBlock([], error)
                 }

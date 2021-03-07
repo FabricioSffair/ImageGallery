@@ -7,16 +7,10 @@
 
 import Foundation
 
-protocol GalleryRepository {
-    func searchImages(with tag: String, page: Int, completionBlock: @escaping ([PhotoResponse], Error?) -> Void)
-    func getSizes(for id: String, completionBlock: @escaping ([Size], Error?) -> Void)
-}
-
-
 class GalleryInteractor {
     private let repository: GalleryRepository
     
-    init(galleryRepository: GalleryRepository) {
+    init(galleryRepository: GalleryRepository = GalleryService()) {
         repository = galleryRepository
     }
     
@@ -38,8 +32,8 @@ class GalleryInteractor {
             dispatchGroup.enter()
             repository.getSizes(for: photo.id) { (sizes, error) in
                 for size in sizes {
-                    if size.label == "Large" {
-                        images.append(Image(imageURL: size.url))
+                    if size.label == "Large Square" {
+                        images.append(Image(imageURL: size.source))
                     }
                 }
                 dispatchGroup.leave()
@@ -49,8 +43,4 @@ class GalleryInteractor {
             completionBlock(images, nil)
         }
     }
-}
-
-struct Image {
-    let imageURL: String
 }

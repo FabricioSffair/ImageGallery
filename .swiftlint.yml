@@ -1,0 +1,10 @@
+whitelist_rules:
+  - force_cast
+  - force_try
+
+analyzer_rules:
+  - explicit_self
+
+excluded:
+  - Pods
+  - Google-Maps-iOS-Utils
