@@ -13,6 +13,12 @@
 		192BE2A725F558580000F0FE /* GalleryInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE2A625F558580000F0FE /* GalleryInteractorMock.swift */; };
 		192BE2AB25F558630000F0FE /* GalleryRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE2AA25F558630000F0FE /* GalleryRepositoryMock.swift */; };
 		192BE2BC25F560B20000F0FE /* ErrorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE2BB25F560B20000F0FE /* ErrorMock.swift */; };
+		192BE2C025F569070000F0FE /* SizeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE2BF25F569070000F0FE /* SizeResponse.swift */; };
+		192BE2C425F569300000F0FE /* String+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE2C325F569300000F0FE /* String+Error.swift */; };
+		192BE2C825F569460000F0FE /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE2C725F569460000F0FE /* Image.swift */; };
+		192BE2CC25F569610000F0FE /* GalleryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE2CB25F569610000F0FE /* GalleryRepository.swift */; };
+		192BE2D025F569760000F0FE /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE2CF25F569760000F0FE /* GalleryView.swift */; };
+		192BE2DC25F56AF30000F0FE /* RefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE2DB25F56AF30000F0FE /* RefreshControl.swift */; };
 		195C1DC725F2BF300073D6D8 /* AppCoordinatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DC625F2BF300073D6D8 /* AppCoordinatorSpec.swift */; };
 		195C1DE725F2C1C50073D6D8 /* CoordinatorsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DE625F2C1C50073D6D8 /* CoordinatorsFactory.swift */; };
 		195C1DEC25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DEB25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift */; };
@@ -33,7 +39,6 @@
 		1995C66C25EFA36F00A2AA79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1995C66A25EFA36F00A2AA79 /* Main.storyboard */; };
 		1995C66E25EFA37100A2AA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1995C66D25EFA37100A2AA79 /* Assets.xcassets */; };
 		1995C67125EFA37100A2AA79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1995C66F25EFA37100A2AA79 /* LaunchScreen.storyboard */; };
-		1995C67C25EFA37100A2AA79 /* imageGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1995C67B25EFA37100A2AA79 /* imageGalleryTests.swift */; };
 		19C15DB225F0124E000BD93D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C15DB125F0124E000BD93D /* Coordinator.swift */; };
 		19C15DBA25F0125D000BD93D /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C15DB925F0125D000BD93D /* AppCoordinator.swift */; };
 		19C15DBF25F01267000BD93D /* GalleryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C15DBE25F01267000BD93D /* GalleryCoordinator.swift */; };
@@ -64,6 +69,12 @@
 		192BE2A625F558580000F0FE /* GalleryInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryInteractorMock.swift; sourceTree = "<group>"; };
 		192BE2AA25F558630000F0FE /* GalleryRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryRepositoryMock.swift; sourceTree = "<group>"; };
 		192BE2BB25F560B20000F0FE /* ErrorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMock.swift; sourceTree = "<group>"; };
+		192BE2BF25F569070000F0FE /* SizeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeResponse.swift; sourceTree = "<group>"; };
+		192BE2C325F569300000F0FE /* String+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Error.swift"; sourceTree = "<group>"; };
+		192BE2C725F569460000F0FE /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		192BE2CB25F569610000F0FE /* GalleryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryRepository.swift; sourceTree = "<group>"; };
+		192BE2CF25F569760000F0FE /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		192BE2DB25F56AF30000F0FE /* RefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshControl.swift; sourceTree = "<group>"; };
 		195C1DC625F2BF300073D6D8 /* AppCoordinatorSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorSpec.swift; sourceTree = "<group>"; };
 		195C1DE625F2C1C50073D6D8 /* CoordinatorsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsFactory.swift; sourceTree = "<group>"; };
 		195C1DEB25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCoordinatorMock.swift; sourceTree = "<group>"; };
@@ -87,7 +98,6 @@
 		1995C67025EFA37100A2AA79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1995C67225EFA37100A2AA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1995C67725EFA37100A2AA79 /* imageGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1995C67B25EFA37100A2AA79 /* imageGalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageGalleryTests.swift; sourceTree = "<group>"; };
 		1995C67D25EFA37100A2AA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19C15DB125F0124E000BD93D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		19C15DB925F0125D000BD93D /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
@@ -218,6 +228,8 @@
 		197C49FB25EFA59700ADAB1D /* shared */ = {
 			isa = PBXGroup;
 			children = (
+				192BE2C325F569300000F0FE /* String+Error.swift */,
+				192BE2DB25F56AF30000F0FE /* RefreshControl.swift */,
 			);
 			path = shared;
 			sourceTree = "<group>";
@@ -226,6 +238,8 @@
 			isa = PBXGroup;
 			children = (
 				197C4A2325EFAB6600ADAB1D /* GalleryInteractor.swift */,
+				192BE2C725F569460000F0FE /* Image.swift */,
+				192BE2CB25F569610000F0FE /* GalleryRepository.swift */,
 			);
 			path = domain;
 			sourceTree = "<group>";
@@ -261,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				197C4A1925EFAB3800ADAB1D /* GalleryViewController.swift */,
+				192BE2CF25F569760000F0FE /* GalleryView.swift */,
 				197C4A1A25EFAB3800ADAB1D /* GalleryView.xib */,
 				19C15DC825F01352000BD93D /* GalleryPresenter.swift */,
 				19C15DCD25F026D6000BD93D /* GalleryCollectionViewCell.swift */,
@@ -282,6 +297,7 @@
 			isa = PBXGroup;
 			children = (
 				197C4A0B25EFA9F600ADAB1D /* PhotosResponse.swift */,
+				192BE2BF25F569070000F0FE /* SizeResponse.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -329,7 +345,6 @@
 			children = (
 				195C1DC225F2BEF90073D6D8 /* presenter */,
 				195C1DC125F2BEF50073D6D8 /* domain */,
-				1995C67B25EFA37100A2AA79 /* imageGalleryTests.swift */,
 				1995C67D25EFA37100A2AA79 /* Info.plist */,
 				192BE2BB25F560B20000F0FE /* ErrorMock.swift */,
 			);
@@ -382,6 +397,7 @@
 				1995C65E25EFA36F00A2AA79 /* Frameworks */,
 				1995C65F25EFA36F00A2AA79 /* Resources */,
 				0A7A9B4C71EE9407A25DBB63 /* [CP] Embed Pods Frameworks */,
+				192BE2E725F574800000F0FE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -489,6 +505,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-imageGallery/Pods-imageGallery-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		192BE2E725F574800000F0FE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
 		5F07734389EE76AB95BE19FE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -558,20 +591,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				19C15DC925F01352000BD93D /* GalleryPresenter.swift in Sources */,
+				192BE2C825F569460000F0FE /* Image.swift in Sources */,
 				197C4A2425EFAB6600ADAB1D /* GalleryInteractor.swift in Sources */,
 				1995C66925EFA36F00A2AA79 /* ViewController.swift in Sources */,
+				192BE2C425F569300000F0FE /* String+Error.swift in Sources */,
 				19C15DBA25F0125D000BD93D /* AppCoordinator.swift in Sources */,
 				197C4A1B25EFAB3800ADAB1D /* GalleryViewController.swift in Sources */,
 				19C15DCF25F026D6000BD93D /* GalleryCollectionViewCell.swift in Sources */,
 				1995C66525EFA36F00A2AA79 /* AppDelegate.swift in Sources */,
+				192BE2C025F569070000F0FE /* SizeResponse.swift in Sources */,
 				1995C66725EFA36F00A2AA79 /* SceneDelegate.swift in Sources */,
 				19C15DBF25F01267000BD93D /* GalleryCoordinator.swift in Sources */,
+				192BE2CC25F569610000F0FE /* GalleryRepository.swift in Sources */,
 				195C1DE725F2C1C50073D6D8 /* CoordinatorsFactory.swift in Sources */,
 				19C15DC425F012EF000BD93D /* SceneFactory.swift in Sources */,
 				197C4A0425EFA5E600ADAB1D /* FlickrAPI.swift in Sources */,
 				197C4A3025EFABE100ADAB1D /* GalleryService.swift in Sources */,
 				197C4A0C25EFA9F600ADAB1D /* PhotosResponse.swift in Sources */,
 				19C15DB225F0124E000BD93D /* Coordinator.swift in Sources */,
+				192BE2D025F569760000F0FE /* GalleryView.swift in Sources */,
+				192BE2DC25F56AF30000F0FE /* RefreshControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,7 +619,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				195C1E0325F2CFF10073D6D8 /* GalleryCoordinatorSpec.swift in Sources */,
-				1995C67C25EFA37100A2AA79 /* imageGalleryTests.swift in Sources */,
 				192BE2AB25F558630000F0FE /* GalleryRepositoryMock.swift in Sources */,
 				195C1DEC25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift in Sources */,
 				195C1DF225F2C2EB0073D6D8 /* UIWindowMock.swift in Sources */,
@@ -677,7 +715,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -732,7 +770,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -749,6 +787,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6M4MDGLH9;
 				INFOPLIST_FILE = imageGallery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -768,6 +807,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L6M4MDGLH9;
 				INFOPLIST_FILE = imageGallery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

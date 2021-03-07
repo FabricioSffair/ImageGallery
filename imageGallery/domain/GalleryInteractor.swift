@@ -7,12 +7,6 @@
 
 import Foundation
 
-protocol GalleryRepository {
-    func searchImages(with tag: String, page: Int, completionBlock: @escaping ([PhotoResponse], Error?) -> Void)
-    func getSizes(for id: String, completionBlock: @escaping ([Size], Error?) -> Void)
-}
-
-
 class GalleryInteractor {
     private let repository: GalleryRepository
     
@@ -49,8 +43,4 @@ class GalleryInteractor {
             completionBlock(images, nil)
         }
     }
-}
-
-struct Image: Equatable {
-    let imageURL: String
 }

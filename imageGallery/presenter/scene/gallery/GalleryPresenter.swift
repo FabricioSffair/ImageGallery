@@ -33,6 +33,10 @@ class GalleryPresenter {
     
     private func fetchImages() {
         self.view?.togglePullRefresh(show: true)
+        guard !currentTag.isEmpty else {
+            self.view?.togglePullRefresh(show: false)
+            return
+        }
         interactor.fetchImages(with: currentTag, for: page) { [weak self] (images, error) in
             guard let self = self else { return }
             self.view?.togglePullRefresh(show: false)
@@ -47,13 +51,3 @@ class GalleryPresenter {
         }
     }
 }
-
-protocol GalleryView: class {
-    func show(images: [Image], isLoadMore: Bool)
-    func show(error: String)
-    func toggleHUD(message: String?)
-    func togglePullRefresh(show: Bool)
-}
-
-
-extension String: Error {}

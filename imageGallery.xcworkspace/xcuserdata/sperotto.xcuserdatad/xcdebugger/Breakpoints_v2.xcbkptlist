@@ -14,8 +14,8 @@
             filePath = "imageGallery/presenter/scene/gallery/GalleryPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "fetchImages()"
             landmarkType = "7">
             <Locations>
@@ -62,8 +62,8 @@
             filePath = "imageGalleryTests/presenter/scene/gallery/mocks/GalleryViewMock.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "togglePullRefresh(show:)"
             landmarkType = "7">
          </BreakpointContent>

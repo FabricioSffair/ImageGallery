@@ -34,8 +34,8 @@ class GalleryViewController: UIViewController, UICollectionViewDelegateFlowLayou
     private func setupNavigationBar() {
         let logo = UIImageView(image: UIImage(named: "flickr-logo"))
         logo.contentMode = .scaleAspectFit
-        navigationController?.navigationItem.titleView = logo
-        navigationController?.navigationItem.titleView?.sizeToFit()
+        navigationItem.titleView = logo
+        navigationItem.titleView?.sizeToFit()
     }
     
     private func setupCollectionView() {
@@ -118,20 +118,10 @@ extension GalleryViewController: GalleryView {
         }
     }
     
-    func toggleHUD(message: String?) {
-        DispatchQueue.main.async {
-            if let title = message {
-                HUD.show(.labeledProgress(title: title, subtitle: nil))
-            } else {
-                HUD.hide()
-            }
-        }
-    }
-    
     func togglePullRefresh(show: Bool) {
         DispatchQueue.main.async {
             if show {
-                self.collectionView.refreshControl?.beginRefreshing()
+                self.collectionView.refreshControl?.beginRefreshingManually()
             } else {
                 self.collectionView.refreshControl?.endRefreshing()
             }

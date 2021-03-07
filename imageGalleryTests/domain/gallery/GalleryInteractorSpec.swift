@@ -13,10 +13,10 @@ import Nimble
 
 class GalleryInteractorSpec: QuickSpec {
     override func spec() {
-        let photosResponseMock = [PhotoResponse(id: "1", title: "Testing", farm: 65),
-                                  PhotoResponse(id: "2", title: "Testing 2", farm: 65),
-                                  PhotoResponse(id: "3", title: "Testing 3", farm: 65),
-                                  PhotoResponse(id: "4", title: "Testing 4", farm: 65)]
+        let photosResponseMock = [PhotoResponse(id: "1", title: "Testing"),
+                                  PhotoResponse(id: "2", title: "Testing 2"),
+                                  PhotoResponse(id: "3", title: "Testing 3"),
+                                  PhotoResponse(id: "4", title: "Testing 4")]
         let sizesMock = [Size(label: "Large Square", source: "a"), Size(label: "Large Square", source: "b"), Size(label: "Large Square", source: "c"), Size(label: "Large Square", source: "d")]
         let expectedImages = [Image(imageURL: "a"), Image(imageURL: "b"), Image(imageURL: "c"), Image(imageURL: "d")]
         

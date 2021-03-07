@@ -23,10 +23,6 @@ class GalleryViewMock: GalleryView {
         presentedError = error
     }
     
-    func toggleHUD(message: String?) {
-        
-    }
-    
     func togglePullRefresh(show: Bool) {
         isShowingPullRefresh = show
     }
