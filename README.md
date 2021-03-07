@@ -20,6 +20,7 @@ Frameworks adopted:
 * **Quick/Nimble:** Used to implement unit tests in a Behavior-driven style
 * **Moya:** Used to handle network requests
 * **PKHUD:** Used to display HUD on errors
+* **Kingfisher:** Download and display images easily with activity indicator while downlod isn't done
 * **SwiftLint:** Used basic sets of rules such as blocking forcecast
 
 ## Local Pipeline
