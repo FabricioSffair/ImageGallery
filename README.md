@@ -13,6 +13,8 @@ The architecture was divided with the following layers:
 
 The application is covered by unit tests.
 
+Application is currently with minimum iOS Target 13. Project was made using swift 5 and Xcode 12.4
+
 Frameworks adopted:
 
 * **Quick/Nimble:** Used to implement unit tests in a Behavior-driven style
