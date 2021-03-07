@@ -51,6 +51,6 @@ class GalleryInteractor {
     }
 }
 
-struct Image {
+struct Image: Equatable {
     let imageURL: String
 }

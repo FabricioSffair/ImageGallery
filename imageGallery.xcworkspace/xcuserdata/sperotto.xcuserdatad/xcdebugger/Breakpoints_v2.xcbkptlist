@@ -14,9 +14,57 @@
             filePath = "imageGallery/presenter/scene/gallery/GalleryPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "fetchImages()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "42AA13CE-93CD-484A-AA77-74733147CFDF - 8245315a00454f25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "imageGallery.GalleryPresenter.(fetchImages in _E6556626A17E2793D137CA26F51A1478)() -&gt; ()"
+                  moduleName = "imageGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sperotto/Development/imageGallery/imageGallery/presenter/scene/gallery/GalleryPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "289">
+               </Location>
+               <Location
+                  uuid = "42AA13CE-93CD-484A-AA77-74733147CFDF - f5191b5b66dac218"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;imageGallery.Image&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in imageGallery.GalleryPresenter.(fetchImages in _E6556626A17E2793D137CA26F51A1478)() -&gt; ()"
+                  moduleName = "imageGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sperotto/Development/imageGallery/imageGallery/presenter/scene/gallery/GalleryPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "241">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC577BA9-C56C-46A6-89B0-4F87AFE14F41"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imageGalleryTests/presenter/scene/gallery/mocks/GalleryViewMock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "togglePullRefresh(show:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

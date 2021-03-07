@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192BE29525F54F150000F0FE /* GalleryPresenterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE29425F54F150000F0FE /* GalleryPresenterSpec.swift */; };
+		192BE29B25F54F1E0000F0FE /* GalleryViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE29A25F54F1E0000F0FE /* GalleryViewMock.swift */; };
+		192BE2A125F557DF0000F0FE /* GalleryInteractorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE2A025F557DF0000F0FE /* GalleryInteractorSpec.swift */; };
+		192BE2A725F558580000F0FE /* GalleryInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE2A625F558580000F0FE /* GalleryInteractorMock.swift */; };
+		192BE2AB25F558630000F0FE /* GalleryRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE2AA25F558630000F0FE /* GalleryRepositoryMock.swift */; };
+		192BE2BC25F560B20000F0FE /* ErrorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192BE2BB25F560B20000F0FE /* ErrorMock.swift */; };
 		195C1DC725F2BF300073D6D8 /* AppCoordinatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DC625F2BF300073D6D8 /* AppCoordinatorSpec.swift */; };
 		195C1DE725F2C1C50073D6D8 /* CoordinatorsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DE625F2C1C50073D6D8 /* CoordinatorsFactory.swift */; };
 		195C1DEC25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C1DEB25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift */; };
@@ -52,6 +58,12 @@
 /* Begin PBXFileReference section */
 		02DD97A6D45C5706D9579501 /* Pods_imageGallery_Tests_imageGalleryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_imageGallery_Tests_imageGalleryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D55CCB5B35B5981AB153A7 /* Pods-imageGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imageGallery.release.xcconfig"; path = "Target Support Files/Pods-imageGallery/Pods-imageGallery.release.xcconfig"; sourceTree = "<group>"; };
+		192BE29425F54F150000F0FE /* GalleryPresenterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryPresenterSpec.swift; sourceTree = "<group>"; };
+		192BE29A25F54F1E0000F0FE /* GalleryViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewMock.swift; sourceTree = "<group>"; };
+		192BE2A025F557DF0000F0FE /* GalleryInteractorSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryInteractorSpec.swift; sourceTree = "<group>"; };
+		192BE2A625F558580000F0FE /* GalleryInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryInteractorMock.swift; sourceTree = "<group>"; };
+		192BE2AA25F558630000F0FE /* GalleryRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryRepositoryMock.swift; sourceTree = "<group>"; };
+		192BE2BB25F560B20000F0FE /* ErrorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMock.swift; sourceTree = "<group>"; };
 		195C1DC625F2BF300073D6D8 /* AppCoordinatorSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorSpec.swift; sourceTree = "<group>"; };
 		195C1DE625F2C1C50073D6D8 /* CoordinatorsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsFactory.swift; sourceTree = "<group>"; };
 		195C1DEB25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCoordinatorMock.swift; sourceTree = "<group>"; };
@@ -113,9 +125,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		192BE29325F54EF00000F0FE /* gallery */ = {
+			isa = PBXGroup;
+			children = (
+				195C1DFB25F2CD430073D6D8 /* mocks */,
+				192BE29425F54F150000F0FE /* GalleryPresenterSpec.swift */,
+			);
+			path = gallery;
+			sourceTree = "<group>";
+		};
+		192BE29E25F557B90000F0FE /* gallery */ = {
+			isa = PBXGroup;
+			children = (
+				192BE29F25F557D20000F0FE /* mock */,
+				192BE2A025F557DF0000F0FE /* GalleryInteractorSpec.swift */,
+			);
+			path = gallery;
+			sourceTree = "<group>";
+		};
+		192BE29F25F557D20000F0FE /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				192BE2A625F558580000F0FE /* GalleryInteractorMock.swift */,
+				192BE2AA25F558630000F0FE /* GalleryRepositoryMock.swift */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
 		195C1DC125F2BEF50073D6D8 /* domain */ = {
 			isa = PBXGroup;
 			children = (
+				192BE29E25F557B90000F0FE /* gallery */,
 			);
 			path = domain;
 			sourceTree = "<group>";
@@ -152,7 +192,7 @@
 		195C1DC525F2BF110073D6D8 /* scene */ = {
 			isa = PBXGroup;
 			children = (
-				195C1DFB25F2CD430073D6D8 /* mocks */,
+				192BE29325F54EF00000F0FE /* gallery */,
 			);
 			path = scene;
 			sourceTree = "<group>";
@@ -170,6 +210,7 @@
 		195C1DFB25F2CD430073D6D8 /* mocks */ = {
 			isa = PBXGroup;
 			children = (
+				192BE29A25F54F1E0000F0FE /* GalleryViewMock.swift */,
 			);
 			path = mocks;
 			sourceTree = "<group>";
@@ -290,6 +331,7 @@
 				195C1DC125F2BEF50073D6D8 /* domain */,
 				1995C67B25EFA37100A2AA79 /* imageGalleryTests.swift */,
 				1995C67D25EFA37100A2AA79 /* Info.plist */,
+				192BE2BB25F560B20000F0FE /* ErrorMock.swift */,
 			);
 			path = imageGalleryTests;
 			sourceTree = "<group>";
@@ -539,12 +581,18 @@
 			files = (
 				195C1E0325F2CFF10073D6D8 /* GalleryCoordinatorSpec.swift in Sources */,
 				1995C67C25EFA37100A2AA79 /* imageGalleryTests.swift in Sources */,
+				192BE2AB25F558630000F0FE /* GalleryRepositoryMock.swift in Sources */,
 				195C1DEC25F2C2E20073D6D8 /* GalleryCoordinatorMock.swift in Sources */,
 				195C1DF225F2C2EB0073D6D8 /* UIWindowMock.swift in Sources */,
 				195C1DFF25F2CD820073D6D8 /* SceneFactoryMock.swift in Sources */,
+				192BE2BC25F560B20000F0FE /* ErrorMock.swift in Sources */,
 				195C1DF625F2C3090073D6D8 /* CoordinatorsFactoryMock.swift in Sources */,
 				195C1E0925F2D0C10073D6D8 /* UINavigationControllerMock.swift in Sources */,
+				192BE2A725F558580000F0FE /* GalleryInteractorMock.swift in Sources */,
+				192BE29B25F54F1E0000F0FE /* GalleryViewMock.swift in Sources */,
+				192BE29525F54F150000F0FE /* GalleryPresenterSpec.swift in Sources */,
 				195C1DC725F2BF300073D6D8 /* AppCoordinatorSpec.swift in Sources */,
+				192BE2A125F557DF0000F0FE /* GalleryInteractorSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
